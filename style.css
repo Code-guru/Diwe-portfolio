@@ -1,0 +1,779 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 10vh !important;
+    /* background-color: #000000 !important; */
+}
+.navbar-toggler {
+    transition: 15ms ease-in-out !important;
+    box-shadow: none !important;
+}
+
+
+.navli{
+    color: white !important;
+    
+}
+
+.navli:hover{
+    color: lime !important;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+.navliactive{
+    color: lime !important;
+    font-weight: bold !important;
+}
+
+.banner{
+    width: 100%;
+    height: 98vh;
+}
+.bannerText{
+    color: white;
+    padding-top: 18em;
+}
+.bannerText h3{
+    font-size: 2rem;
+}
+.bannerText h2{
+    font-size: 4rem;
+}
+.bannerText h5{
+    font-size: 2rem;
+}
+
+.bannerimg{
+    width: 45%;
+}
+.bannerimg img{
+    margin-left: 2em;
+  
+}
+
+.aboutme{
+    height: auto;
+}
+.card1{
+    height: auto !important;
+    border: 2px solid lime;
+    background: white;
+}
+.card-text{
+    font-size: 1.6rem !important;
+}
+.card{
+    border: 1px solid lime !important;
+}
+
+.img1{
+    width: 80% !important;
+    margin-left: 15px;
+}
+.img3{
+    width: 105%;
+}
+ 
+.card:hover{
+    cursor: pointer;
+    transition: 2s ease-in-out;
+    transform: scale(0.9);
+}
+
+
+.footer-part {
+
+    background: linear-gradient(to right, rgba(0, 0, 0, .9), rgb(0, 0, 0, .7));
+    background-size: cover;
+    font-size: 1.2em;
+
+    color: white;
+}
+
+
+.footer-part1 {
+
+    background: linear-gradient(to right, rgba(0, 0, 0, .9), rgb(0, 0, 0, .7));
+    background-size: cover;
+    font-size: 1.2em;
+
+    color: white;
+}
+
+.quick-link ul li {
+    list-style: circle;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.quick-link ul li a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+
+}
+
+.quick-link ul li a:hover {
+    color: lime;
+}
+
+.connect a {
+    color: white;
+    font-family: sans-serif;
+}
+
+.connect a:hover {
+    color: lime;
+}
+
+.icon a{
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.item{
+    height: 65vh !important;
+    overflow: hidden;
+}
+.item:hover{
+   cursor: pointer;
+   transition: 1.5s ease-in-out;
+   transform: scale(0.9);
+}
+.txt-item{
+    font-size: 1.2em !important; 
+}
+
+.btn-holder a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 3rem !important;
+  
+}
+.btn-holder button{
+    background-color: lime;
+    outline: none;
+    border: none;
+    width: 25%;
+    height: 8vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn-holder button:hover{
+    background-color: white;
+    border: 2px solid lime;
+    color: black;
+}
+
+
+/* MOBILE BANNER */
+
+.mobile-banner{
+    height: 70vh;
+    background: linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,.5)) , url(../images/diwe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center bottom;
+}
+.mobile-txt h1{
+    font-size: 2.5em;
+    opacity: 0.8;
+    color: white;
+    padding-top: 8em !important;
+
+}
+.mobile-txt span{
+    color: lime;
+    text-shadow: 0px 5px 5px 2px solid white;
+}
+
+
+
+
+/* CONTACT US */
+
+.contact-banner{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,.9), rgb(19, 146, 2)) , url(../images/diwe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.contact-txt{
+    padding-top: 12%;
+    color: white;
+}
+.contact-txt h2{
+    font-size: 2.6rem;
+}
+.contact-txt p{
+    color: gray;
+}
+
+.form-holder{
+    height: 60vh;
+   
+}
+.form{
+    width: 44%;
+    padding: 20px;
+    margin-left: 80px;
+    height: 55vh;
+    margin-right: 60px;
+    margin-top: 60px;
+    background-color: black;
+}
+.contact-info{
+    width: 35%;
+    height: 38vh;
+    padding: 20px;
+    margin-top: 60px;
+    background-color: #DBDCDB;
+}
+#fname{
+    width: 440px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+#email{
+    width: 440px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #ffffff; 
+}
+#textarea{
+    width: 440px;
+    height: 80px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+.contact-button{
+    width: 440px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color:white;
+    border-radius: 0px !important;
+    outline: none !important;
+    border: none !important;
+}
+.contact-button:hover{
+    background-color: lime;
+    color: white;
+}
+.footer-part{
+    margin-top: 5em!important;
+}
+
+
+
+
+/* MY WORKS */
+.myworks{
+    background-color: #DBDCDB;
+
+}
+.my-workscont{
+    padding-top: 8rem !important;
+}
+.ui{
+   height: 75vh;
+   overflow: hidden;
+}
+.ui:hover{
+    cursor: pointer;
+    transition: 2s ease-in-out;
+    transform: scale(1.0);
+    overflow: visible;
+}
+.footer-part{
+    margin-top: 6em!important;
+}
+.parentwork{
+    background-color: #DBDCDB;
+}
+
+
+
+/* CASES */
+
+
+.cases-parent{
+    padding-top: 10em !important;
+    
+}
+.cases-parent h6{
+    font-weight: bold;
+}
+.cases-sect1{
+    border-right: 1px solid black;
+    width: 53%;
+}
+.cases-sect2{
+    padding-left: 20px;
+}
+#webdeves{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width:1025px){
+    .mobile-banner{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    .mobile-banner{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .navbar{
+        height: 7vh !important;
+    }
+
+    .banner{
+        width: 100%;
+        height: 52vh;
+    }
+    .bannerText{
+        color: white;
+        padding-top: 18em;
+    }
+    .bannerText h3{
+        font-size: 2rem;
+    }
+    .bannerText h2{
+        font-size: 3rem;
+    }
+    .bannerText h5{
+        font-size: 1.5rem;
+    }
+    
+    .bannerimg{
+        width: 50%;
+    }
+    .bannerimg img{
+        margin-left: 0px;
+      
+    }
+    .aboutme-txt{
+        padding-top: 4em !important;
+    }
+    .item{
+        height: 40vh !important;
+        overflow: hidden;
+    }
+    .btn-holder button{
+        background-color: lime;
+        outline: none;
+        border: none;
+        width: 30%;
+        height: 6vh;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+
+
+    /* CONTACT US MEDIA QUERY */
+
+    .contact-banner{
+        height: 30vh;
+       
+        
+    }
+    .contact-txt{
+        padding-top: 23%;
+        color: white;
+    }
+    .contact-txt h2{
+        font-size: 2.7rem;
+    }
+    .contact-txt p{
+        color: gray;
+    }
+    
+    .form-holder{
+        height: auto;
+       
+    }
+    .form{
+        width: 47%;
+        padding: 20px;
+        
+        margin-left: 50px;
+        height: 28vh;
+        margin-right: 60px;
+        margin-top: 60px;
+        background-color: black;
+    }
+    .contact-info{
+        width: 38%;
+        height: 20vh;
+        padding: 20px;
+        margin-top: 60px;
+        background-color: #DBDCDB;
+    }
+    #fname{
+        width: 400px;
+        height: 50px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+    }
+    #email{
+        width: 400px;
+        height: 50px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid #ffffff; 
+    }
+    #textarea{
+        width: 400px;
+        height: 80px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+    }
+    .contact-button{
+        width: 400px;
+        height: 50px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color:white;
+        border-radius: 0px !important;
+        outline: none !important;
+        border: none !important;
+    }
+
+
+    /* MY WORKS MEDIA QUERY */
+
+    .ui{
+        height: auto;
+        overflow: hidden;
+     }
+
+
+
+
+     /* CASES MEDIA QUERY */
+
+     .cases-sect1{
+        border-right: 1px solid black;
+        width: 60%;
+        padding-right: 8px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .mobile-banner{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+
+    .banner{
+        width: 100%;
+        height: 50vh;
+    }
+    .bannerText{
+        color: white;
+        padding-top: 15em;
+    }
+    .bannerText h3{
+        font-size: 1.5rem;
+    }
+    .bannerText h2{
+        font-size: 2.2rem;
+    }
+    .bannerText h5{
+        font-size: 1.2rem;
+    }
+    
+    .bannerimg{
+        width: 50%;
+    }
+    .bannerimg img{
+        margin-left: 0px;
+      
+    }
+    .aboutme-txt{
+        padding-top: 4em !important;
+    }
+    .email{
+        font-size: 0.8em;
+    }
+    .icon a{
+        font-size: 1.1em;
+        font-family: sans-serif;
+    }
+    .footer-part{
+        font-size: 1em;
+    }
+
+
+    /* CONTACT MEDIA QUERY */
+
+    .contact-banner{
+        height: 30vh;
+        width: 100%;
+       
+        
+    }
+    .contact-txt{
+        padding-top: 20%;
+        color: white;
+    }
+    .contact-txt h2{
+        font-size: 2.2rem;
+    }
+    .contact-txt p{
+        color: gray;
+    }
+    
+    .form-holder{
+        height: auto;
+       
+    }
+    .form{
+        width: 50%;
+        padding: 20px;
+        
+        margin-left: 0px;
+        height: 35vh;
+        margin-right: 50px;
+        margin-top: 60px;
+        background-color: black;
+    }
+    .contact-info{
+        width: 44%;
+        height: 25vh;
+        padding: 20px;
+        margin-top: 60px;
+        background-color: #DBDCDB;
+    }
+    #fname{
+        width: 300px;
+        height: 50px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+    }
+    #email{
+        width: 300px;
+        height: 50px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid #ffffff; 
+    }
+    #textarea{
+        width: 300px;
+        height: 80px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+    }
+    .contact-button{
+        width: 300px;
+        height: 50px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color:white;
+        border-radius: 0px !important;
+        outline: none !important;
+        border: none !important;
+    }
+
+
+
+    /* MY WORKS MEDIA QUERY */
+
+    .ui{
+        height: auto;
+        overflow: hidden;
+     }
+
+
+
+     /* CASES MEDIA QUERY */
+
+     .cases-sect1{
+        border-right: 1px solid black;
+        width: 88%;
+        padding-right: 5px;
+    }
+
+   
+
+}
+
+
+
+
+@media screen and (max-width:480px){
+    .navbar{
+        height: 8vh !important;
+    }
+    .banner{
+        display: none;
+        width: 100%;
+        height: 88vh;
+    }
+    .bannerText{
+        color: white;
+        
+        display: none;
+    }
+    .mobile-banner{
+        display: block;
+    }
+    .aboutme-txt{
+        text-align: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .btn-holder button{
+        background-color: lime;
+        outline: none;
+        border: none;
+        width: 34%;
+        height: 8vh;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+
+
+
+    /* CONTACT MEDIA QUERY */
+
+
+    .contact-banner{
+        height: 35vh;
+        width: 100%;
+      
+        
+    }
+    .contact-txt{
+        padding-top: 30%;
+        color: white;
+    }
+    .contact-txt h2{
+        font-size: 2rem;
+    }
+    .contact-txt p{
+        color: gray;
+        font-size: 0.9rem !important;
+    }
+    
+    .form-holder{
+        height: auto;
+        width: 100%;
+       
+    }
+    .form{
+        width: 98%;
+        padding: 20px;
+        margin-left: 0px;
+        height: 50vh;
+        margin-right: 0px;
+        margin-top: 30px;
+        background-color: black;
+    }
+    .contact-info{
+        width: 98%;
+        height: 32vh;
+   
+    }
+    #fname{
+        width: 340px;
+        height: 50px;
+        
+    }
+    #email{
+        width: 340px;
+        height: 50px;
+        
+    }
+    #textarea{
+        width: 340px;
+        height: 80px;
+       
+    }
+    .contact-button{
+        width: 340px;
+        height: 50px;
+        font-size: 1.2rem;
+     
+    }
+
+
+    
+    /* MY WORKS MEDIA QUERY */
+
+    .ui{
+        height: auto;
+        overflow: hidden;
+     }
+  
+    
+
+
+     /* CASES MEDIA QUERY */
+
+     .cases-sect1{
+        border-right: none;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .cases-sect2{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    
+    
+
+}
